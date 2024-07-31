@@ -48,8 +48,9 @@ This extension is to auto-populate the custom Registration Date field with the p
  - custom field     = Registration Date
 
 2. If the extension doesn't work even after you have changed the IDs, go and check the below name in the database of your site. 
- - 'table_name' => 'civicrm_value_volunteer_eve_123',
- - 'column_name' => 'registration_date_770',
+ - 'table_name' => 'civicrm_value_volunteer_eve_123'
+ - 'column_name' => 'registration_date_770'
+ 
 According to your site database, table_name and column_name can be different. Check the names and modify the code if required.
 ![Alt_text](images/image4.png)
 
