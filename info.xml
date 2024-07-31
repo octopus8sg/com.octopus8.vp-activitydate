@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<extension key="vp_activitydate" type="module">
+  <file>vp_activitydate</file>
+  <name>vp_activitydate</name>
+  <description>To auto-populate the custom Registration Date field with present date and time</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>MayPhyu"Thaw</author>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">http://FIXME</url>
+    <url desc="Support">http://FIXME</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2024-07-30</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.75</ver>
+  </compatibility>
+  <comments>To auto-populate the custom Registration Date field with present date and time</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/VpActivitydate</namespace>
+    <format>23.02.1</format>
+    <angularModule>crmVpActivitydate</angularModule>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty@1.0.0</mixin>
+  </mixins>
+</extension>
