@@ -14,6 +14,8 @@ This extension is to auto-populate the custom Registration Date field with the p
     - custom field "Registration Date"
     - custom field set "Volunteer Event Registration Details"
    You can find in CiviCRM "Administer >> Custom Data and Screens >> Custom Fields".
+   ![Alt_text](images/image2.png)
+   ![Alt_text](images/image3.png)
 
 4. Open "vp_activitydate.php" and find the below code snippet (around line 71 to 85).
 
@@ -33,6 +35,7 @@ This extension is to auto-populate the custom Registration Date field with the p
         ];
 
 5. Replace '770' with the ID of custom field "Registration Date" (You need to change in 2 places).
+   
    Replace '123' with the ID of custom field set "Volunteer Event Registration Details" (You need to change in 1 place).
 ![Alt_text](images/image1.png)
 
@@ -48,6 +51,7 @@ This extension is to auto-populate the custom Registration Date field with the p
  - 'table_name' => 'civicrm_value_volunteer_eve_123',
  - 'column_name' => 'registration_date_770',
 According to your site database, table_name and column_name can be different. Check the names and modify the code if required.
+![Alt_text](images/image4.png)
 
 This is an [extension for CiviCRM](https://docs.civicrm.org/sysadmin/en/latest/customize/extensions/), licensed under [AGPL-3.0](LICENSE.txt).
 
